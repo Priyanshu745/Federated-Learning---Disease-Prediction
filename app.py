@@ -36,7 +36,7 @@ model.eval()
 
 # Streamlit interface setup
 st.title("Federated Learning - Disease Prediction")
-st.write("This model has been tuned and demonstrates ~99% accuracy on test data.")
+st.write("This model has been tuned and demonstrates on test data.")
 
 # Input form for patient data
 age = st.number_input("Age", value=50, min_value=0, max_value=120)
