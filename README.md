@@ -60,7 +60,7 @@ This will create a synthetic dataset with equal samples for:
 ### 3. Train Federated Model
 
 ```bash
-python trainmodel.py
+python train.py
 ```
 
 This simulates federated learning over 5 clients and saves the trained model as `global_model.pt`.
